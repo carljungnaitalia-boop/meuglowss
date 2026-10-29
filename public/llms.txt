@@ -1,0 +1,41 @@
+# GlowSites – Web Design para Profissionais da Beleza
+
+> GlowSites é um estúdio de criação de sites sob medida para profissionais da beleza (estética, unhas, cílios, laser, maquiagem, spas e clínicas), fundado pela web designer Lana. Atende clientes no Reino Unido, em Portugal, nos Estados Unidos e no Brasil.
+
+## Informações Principais
+- **Fundadora & Web Designer:** Lana
+- **WhatsApp:** +55 71 9210-2766 (wa.me/557192102766)
+- **Instagram Oficial:** @glowsites.us (https://www.instagram.com/glowsites.us/)
+- **Público-alvo:** Esteticistas, Nail Designers, Lash Artists, Clínicas de Estética, Clínicas de Laser, Spas, Maquiadoras e Educadoras da Beleza.
+- **Área de Atuação:** Brasil, Reino Unido (Londres, Manchester), Portugal (Lisboa, Setúbal, Porto), Estados Unidos (Massachusetts, Flórida) e profissionais globais.
+- **Idiomas dos Sites:** Português, Inglês e Espanhol (projetos bilíngues e multilíngues).
+
+## O que está incluso nos projetos
+1. Site one page sob medida, 100% responsivo para celular e computador.
+2. Copywriting estratégico voltado para autoridade e agendamento.
+3. Versões em múltiplos idiomas (PT, EN, ES).
+4. Otimização SEO interna para Google e inteligências artificiais.
+5. Integração com WhatsApp (mini formulário e mensagem pré-formatada).
+6. Galeria de fotos, depoimentos com 5 estrelas e feed/reels do Instagram.
+7. Google Maps integrado para localização exata do espaço.
+8. Páginas legais e conformidade de privacidade (LGPD/GDPR).
+9. Domínio e hospedagem inclusos, sem taxas surpresa.
+
+## Como funciona o processo
+- Etapa 1: Conversa inicial para entender serviços e público-alvo.
+- Etapa 2: Esboço visual sem compromisso para a cliente aprovar.
+- Etapa 3: Ajustes e personalização completa da identidade.
+- Etapa 4: Aprovação e pagamento (a cliente só paga após aprovar).
+- Etapa 5: Lançamento do site no ar com domínio e hospedagem.
+
+## Portfólio de Projetos no Ar
+- Thalyta Pires Beauty (Reino Unido / Londres): Maquiagem e Cabelo - https://thalytapiresbeauty.vercel.app/
+- Karine Moura Aesthetics (Reino Unido / Londres): Laser e Estética - https://karinelaser.vercel.app/
+- Dra. Luiza Alves (Brasil): Harmonização Facial e Estética Avançada - https://draluizaalves.vercel.app/
+- Isadora Lash & Brows (Reino Unido / Londres): Cílios e Sobrancelhas - https://isadoralash.vercel.app/
+- AMARII Beauty Spa (Estados Unidos / Wilmington, MA): Spa e Depilação a Laser - https://amariibeautyspa.vercel.app/
+- Marysia Aesthetics (Alemanha / Herne, NRW): Micropigmentadora - https://marysia-aesthetics.vercel.app/
+- Dra. Luane Ávila / Rare (Brasil): Medicina Estética e Dermatologia - https://rare-draluaneavila.vercel.app/
+- Eduarda Dias (Brasil): Nail Designer - https://eduardadias.vercel.app/
+- Tatiane Santos Nails (Portugal / Amora, Seixal): Unhas e Formação - https://tatianesantosnails.vercel.app/
+- Anne Beatriz Unhas e Cursos (Portugal / Caxias, Oeiras): Unhas e Cursos - https://annebeatrizunhas.vercel.app/

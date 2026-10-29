@@ -1,0 +1,6 @@
+{
+  "name": "GlowSites | Sites para Profissionais da Beleza",
+  "description": "Portfólio de sites elegantes e bilíngues para esteticistas, nail designers, lash artists e clínicas da GlowSites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

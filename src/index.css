@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-mirror: linear-gradient(135deg, #8F6F2E 0%, #F2DFA7 20%, #C9A24D 40%, #FFF3C9 55%, #B08A3A 75%, #E8D08A 100%);
+    --gold-mirror-hover: linear-gradient(135deg, #A88338 0%, #FFF1D2 20%, #DCB35C 40%, #FFFFFF 55%, #C79E45 75%, #F7E4A8 100%);
+    --gold-glow: 0 0 24px rgba(214, 174, 87, 0.35);
+    --gold-glow-intense: 0 0 38px rgba(214, 174, 87, 0.55);
+    --color-beige-light: #F6EFE4;
+    --color-beige-sand: #EADFCC;
+    --color-mocha: #8B6B52;
+    --color-brown-deep: #4A3727;
+    --color-gold-main: #C29F5B;
+    --color-gold-light: #F2DFA7;
+    --color-gold-antique: #8F7030;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+}
+
+.font-serif-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-montserrat {
+  font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-allura {
+  font-family: 'Allura', cursive;
+}
+
+/* Gold mirror gradient utilities */
+.bg-gold-mirror {
+  background: linear-gradient(135deg, #8F6F2E 0%, #F2DFA7 20%, #C9A24D 40%, #FFF3C9 55%, #B08A3A 75%, #E8D08A 100%);
+}
+
+.bg-gold-subtle {
+  background: linear-gradient(135deg, rgba(242, 223, 167, 0.15) 0%, rgba(201, 162, 77, 0.08) 100%);
+}
+
+.text-gold-mirror {
+  background: linear-gradient(135deg, #8F6F2E 0%, #F2DFA7 20%, #C9A24D 40%, #FFF3C9 55%, #B08A3A 75%, #E8D08A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-on-light {
+  color: #8F7030;
+}
+
+.shadow-gold-glow {
+  box-shadow: 0 0 24px rgba(214, 174, 87, 0.35);
+}
+
+.shadow-gold-glow-lg {
+  box-shadow: 0 0 40px rgba(214, 174, 87, 0.55);
+}
+
+/* Polished metal border shimmer */
+.gold-border-frame {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.gold-border-frame::before {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(135deg, #8F6F2E 0%, #F2DFA7 25%, #C9A24D 50%, #FFF3C9 65%, #B08A3A 85%, #E8D08A 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Shimmer beam animation for luxury buttons */
+.shimmer-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.shimmer-button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.45) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(25deg);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.shimmer-button:hover::after {
+  opacity: 1;
+  animation: shine-slide 1.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@keyframes shine-slide {
+  0% {
+    left: -60%;
+  }
+  100% {
+    left: 140%;
+  }
+}
+
+/* Continuous marquee animation - rolls in infinite continuous loop without pause */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 22s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+  .shimmer-button::after {
+    display: none;
+  }
+}

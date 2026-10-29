@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#F6EFE4"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="url(#goldGradient)" stroke-width="2"/>
+  <defs>
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8F6F2E"/>
+      <stop offset="25%" stop-color="#F2DFA7"/>
+      <stop offset="50%" stop-color="#C9A24D"/>
+      <stop offset="70%" stop-color="#FFF3C9"/>
+      <stop offset="100%" stop-color="#B08A3A"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <!-- 4-point sparkle star -->
+  <path d="M32 10 C32 24, 24 32, 10 32 C24 32, 32 40, 32 54 C32 40, 40 32, 54 32 C40 32, 32 24, 32 10 Z" fill="url(#goldGradient)" filter="url(#goldGlow)"/>
+  <!-- Center tiny spark -->
+  <circle cx="32" cy="32" r="3" fill="#FFF3C9" />
+</svg>
