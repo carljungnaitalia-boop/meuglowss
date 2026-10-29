@@ -96,6 +96,24 @@ export const siteData = {
   
   projects: [
     {
+      id: "sabrine-machado",
+      name: "Sabrine Machado",
+      country: "Estados Unidos",
+      countryKey: "us",
+      flag: "🇺🇸",
+      city: "Estados Unidos (EUA)",
+      segment: {
+        pt: "Nail designer",
+        en: "Nail Designer",
+        es: "Nail designer",
+      },
+      segmentKey: "nails",
+      url: "https://sabrinemachado.vercel.app/",
+      professionalPhoto: "https://i.ibb.co/hFZ8HTGZ/798688104-18102600995614995-7428056892688830150-n-convertido-de-jpg.webp",
+      colorGradient: "from-[#C29F5B] to-[#4A3727]",
+      accentTitle: "Sabrine Machado Nails · USA",
+    },
+    {
       id: "thalyta-pires",
       name: "Thalyta Pires Beauty",
       country: "Reino Unido",

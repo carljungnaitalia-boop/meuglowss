@@ -29,6 +29,7 @@
 - Etapa 5: Lançamento do site no ar com domínio e hospedagem.
 
 ## Portfólio de Projetos no Ar
+- Sabrine Machado (Estados Unidos): Nail Designer - https://sabrinemachado.vercel.app/
 - Thalyta Pires Beauty (Reino Unido / Londres): Maquiagem e Cabelo - https://thalytapiresbeauty.vercel.app/
 - Karine Moura Aesthetics (Reino Unido / Londres): Laser e Estética - https://karinelaser.vercel.app/
 - Dra. Luiza Alves (Brasil): Harmonização Facial e Estética Avançada - https://draluizaalves.vercel.app/
